@@ -5,9 +5,8 @@
 body {
   background: #b3dbe8;
   color: #000;
-  font-family: sans-serif; /*   add fonts   */
+  font-family: Roboto, Helvetica, sans-serif; /*   add fonts   */
 }
-
 
 /*  #container div (below) wraps all content _below_ the image
     2% - top and bottom margins
@@ -47,7 +46,7 @@ aside {
 
 h1, h2 {
   margin: 0;
-  font-family: serif; /*   add fonts   */
+  font-family: Sanchez, Georgia, serif; /*   add fonts   */
 }
 
 article h1 {
@@ -115,3 +114,29 @@ aside a:hover {
 
 
 /* put your media queries below */
+
+@media (max-width: 480px) {
+
+  article {
+    width: 100%;
+    margin: 0
+  }
+
+  aside {
+    width: 100%;
+    margin: 0
+  }
+
+  #sidebar2 {
+    width: 100%;
+    margin: 0
+  }
+
+  #top-image-container {
+    display: none;
+}
+
+  #container {
+    margin: 0
+  }
+}
